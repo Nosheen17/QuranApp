@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -27,6 +28,7 @@ android:id="@+id/navigationView"
         app:headerLayout="@layout/header_menu"
         app:menu="@menu/main_menu"
         android:fitsSystemWindows="true"
+        android:layout_gravity="start"
    >
 
     </com.google.android.material.navigation.NavigationView>
