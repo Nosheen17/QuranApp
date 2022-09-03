@@ -21,10 +21,10 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-      if(actionBarDrawerToggle.onOptionsItemSelected(item)){
-          return true;
-      }
-      return super.onOptionsItemSelected(item);
+        if(actionBarDrawerToggle.onOptionsItemSelected(item)){
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     @Override
@@ -34,23 +34,23 @@ public class MainActivity extends AppCompatActivity {
         drawerLayout=findViewById(R.id.drawer_layout);
         navigationView=findViewById(R.id.navigationView);
         actionBarDrawerToggle=new ActionBarDrawerToggle(this,drawerLayout,R.string.menu_Open,R.string.close_menu);
-       drawerLayout.addDrawerListener(actionBarDrawerToggle);
-       actionBarDrawerToggle.syncState();
-       getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-       navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
-           @Override
-           public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-               switch (item.getItemId()){
+        drawerLayout.addDrawerListener(actionBarDrawerToggle);
+        actionBarDrawerToggle.syncState();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()){
 
-                   case R.id.nav_home:
-                       Log.i("MENU_DRAWER_TAG","Home item is clicked");
-                       drawerLayout.closeDrawer(GravityCompat.START);
-               }
+                    case R.id.nav_home:
+                        Log.i("MENU_DRAWER_TAG","Home item is clicked");
+                        drawerLayout.closeDrawer(GravityCompat.START);
+                }
 
 
-               return true;
-           }
-       });
+                return true;
+            }
+        });
 
 
 

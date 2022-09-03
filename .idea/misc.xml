@@ -3,10 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/NoorehudaQuranApp/app/src/main/res/layout/activity_main.xml" value="0.17" />
-        <entry key="..\:/NoorehudaQuranApp/app/src/main/res/layout/activity_surah_details.xml" value="0.20416666666666666" />
-        <entry key="..\:/NoorehudaQuranApp/app/src/main/res/layout/header_menu.xml" value="0.25" />
-        <entry key="..\:/NoorehudaQuranApp/app/src/main/res/menu/main_menu.xml" value="0.2" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/NoorehudaQuranApp/app/src/main/res/layout/activity_main.xml" value="0.165" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/NoorehudaQuranApp/app/src/main/res/layout/header_menu.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/NoorehudaQuranApp/app/src/main/res/menu/main_menu.xml" value="0.2796875" />
       </map>
     </option>
   </component>
